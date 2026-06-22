@@ -1,3 +1,13 @@
+### File Path and Name
+
+```text
+01-Introduction-to-Oracle-SQL.md
+
+```
+
+### File Content (`01-Introduction-to-Oracle-SQL.md`)
+
+```markdown
 # Introduction to Oracle SQL
 
 ## What is Data?
@@ -67,15 +77,16 @@ String gender = "Male";
 String branch = "ECE";
 int studentId = 458;
 int percentage = 93;
+
 ```
 
 ### Limitation
 
 Programming languages are effective for storing small amounts of data but become difficult when handling large volumes of information because:
 
-- Every value requires a variable declaration
-- Data types must be specified
-- Initialization is required for each variable
+* Every value requires a variable declaration
+* Data types must be specified
+* Initialization is required for each variable
 
 ---
 
@@ -85,18 +96,21 @@ DBMS was introduced to manage large amounts of data efficiently.
 
 DBMS stands for:
 
-**D** – Data  
-**B** – Base  
-**M** – Management  
+**D** – Data
+
+**B** – Base
+
+**M** – Management
+
 **S** – System
 
 ### Advantages of DBMS
 
-- Stores large volumes of data
-- Reduces redundancy
-- Provides data security
-- Supports efficient data retrieval
-- Maintains data consistency
+* Stores large volumes of data
+* Reduces redundancy
+* Provides data security
+* Supports efficient data retrieval
+* Maintains data consistency
 
 ---
 
@@ -113,10 +127,10 @@ Some widely used database systems are:
 
 ## History of Oracle
 
-- In 1977, Larry Ellison, Bob Miner, and Ed Oates founded Software Development Laboratory (SDL).
-- In 1979, SDL was renamed to Relational Software Inc. (RSI).
-- In 1982, RSI became Oracle Systems Corporation (OSC).
-- In 1995, OSC was renamed Oracle Corporation.
+* In 1977, Larry Ellison, Bob Miner, and Ed Oates founded Software Development Laboratory (SDL).
+* In 1979, SDL was renamed to Relational Software Inc. (RSI).
+* In 1982, RSI became Oracle Systems Corporation (OSC).
+* In 1995, OSC was renamed Oracle Corporation.
 
 Today, it is popularly known as **Oracle**.
 
@@ -125,7 +139,7 @@ Today, it is popularly known as **Oracle**.
 ## Oracle Versions
 
 | Version | Year |
-|---------|------|
+| --- | --- |
 | Oracle 1 | 1978 |
 | Oracle 2 | 1979 |
 | Oracle 3 | 1983 |
@@ -148,17 +162,17 @@ Today, it is popularly known as **Oracle**.
 
 SQL stands for **Structured Query Language**.
 
-- Structured → Data is stored in tables.
-- Query → Used to ask questions from the database.
-- Language → Used to communicate with the database.
+* Structured → Data is stored in tables.
+* Query → Used to ask questions from the database.
+* Language → Used to communicate with the database.
 
 ---
 
 ## History of SQL
 
-- SQL was developed in 1970.
-- Invented by Raymond Boyce and Donald Chamberlin.
-- SQL is also known as **SEQUEL** (Structured English Query Language).
+* SQL was developed in 1970.
+* Invented by Raymond Boyce and Donald Chamberlin.
+* SQL is also known as **SEQUEL** (Structured English Query Language).
 
 ---
 
@@ -170,15 +184,15 @@ A table consists of:
 
 Rows are also called:
 
-- Tuples
-- Records
+* Tuples
+* Records
 
 ### Columns
 
 Columns are also called:
 
-- Attributes
-- Fields
+* Attributes
+* Fields
 
 A table is also known as a **Relation**.
 
@@ -202,6 +216,7 @@ CREATE TABLE table_name(
     column_name2 datatype,
     column_name3 datatype
 );
+
 ```
 
 ### Example
@@ -215,6 +230,7 @@ CREATE TABLE student(
     id INT,
     marks INT
 );
+
 ```
 
 ---
@@ -226,6 +242,7 @@ CREATE TABLE student(
 ```sql
 INSERT INTO table_name
 VALUES(value1, value2, value3);
+
 ```
 
 ### Example
@@ -240,6 +257,7 @@ VALUES(
 458,
 93
 );
+
 ```
 
 ---
@@ -257,3 +275,6 @@ The semicolon indicates the end of a SQL statement.
 This file provides the fundamental concepts of Oracle SQL including Data, Database, DBMS, Oracle History, SQL Basics, Table Structure, and Database Creation concepts for beginners and interview preparation.
 
 Happy Learning and Keep Practicing SQL!
+
+```
+
